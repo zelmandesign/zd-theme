@@ -1,5 +1,6 @@
 // import external dependencies
 import 'jquery';
+import '@fortawesome/fontawesome-free/js/all.js';
 
 // Import everything from autoload
 import './autoload/**/*'
