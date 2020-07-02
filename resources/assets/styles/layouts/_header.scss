@@ -1,7 +1,24 @@
+.banner {
+  transition: all 0.5s;
+}
+
 .banner .nav li {
   @extend .nav-item;
 }
 
 .banner .nav a {
   @extend .nav-link;
+}
+
+.navbar-toggler {
+  padding: 0.6rem 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.nav-hidden {
+  transform: translateY(-155px);
 }
