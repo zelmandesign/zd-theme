@@ -1,6 +1,9 @@
 .banner {
   transition: all 0.5s;
+  background-color: theme-color(black-header);
 }
+
+.brand { color: #fff; }
 
 .banner .nav li {
   @extend .nav-item;
@@ -8,6 +11,8 @@
 
 .banner .nav a {
   @extend .nav-link;
+
+  a { color: var(--red); }
 }
 
 .navbar-toggler {
@@ -17,6 +22,8 @@
   border: 0;
   border-radius: 0;
   background-color: transparent;
+  outline: none !important;
+  color: #fff;
 }
 
 .nav-hidden {

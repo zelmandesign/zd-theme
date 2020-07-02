@@ -1,0 +1,24 @@
+body {
+  font-size: 1em;
+  color: #777;
+  font-family: "Questrial", sans-serif;
+}
+
+a {
+  color: var(--red);
+  transition: all 0.3s;
+
+  &:hover {
+    text-decoration: none;
+    color: var(--light);
+  }
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-family: "Alfa Slab One", cursive;
+// }

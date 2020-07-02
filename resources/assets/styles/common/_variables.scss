@@ -2,8 +2,16 @@
 @import "~bootstrap/scss/functions";
 
 $theme-colors: (
-  primary: #525ddc
+  primary: #525ddc,
+  black-bg: #161615,
+  black-header: #282c34,
+  dark-red: #8b0000
 );
+
+$body-bg: theme-color(black-bg);
+$body-color: #fff;
+
+$hamburger-layer-color: #fff !default;
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;

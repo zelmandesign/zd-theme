@@ -12,6 +12,8 @@
 // @import "~some-node-module";
 
 /** Import theme styles */
+@import "~bootstrap/scss/bootstrap";
+@import "~hamburgers/_sass/hamburgers/hamburgers";
 @import "common/global";
 @import "components/buttons";
 @import "components/comments";
@@ -23,5 +25,4 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
-@import "~hamburgers/_sass/hamburgers/hamburgers";
-@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Questrial");

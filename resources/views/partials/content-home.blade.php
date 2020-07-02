@@ -1,7 +1,6 @@
 <section id="main">
-  fjkdsklfdssdfljkfjklsdfljksdflkj
-
-
+  <h1>Hello, I'm <span class="text-orange">Andrzej Zelman</span>. <br> I'm a full-stack web developer.</h1>
+  <div class="element"></div>
 </section>
 
 <section id="about">
