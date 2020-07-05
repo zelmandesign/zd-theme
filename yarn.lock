@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@barba/core@^2.9.7":
+  version "2.9.7"
+  resolved "https://registry.yarnpkg.com/@barba/core/-/core-2.9.7.tgz#803f7b54c6fa7d69e482378168f701cbb1a28d8b"
+  integrity sha512-GLtpty1fzWnd500AoUHd+hJoSCVElqth20P4W8Bf0IAA9nd1K5e8NbPnCegXC4KzOwV+JHk5DVofAZcoc+I54Q==
+  dependencies:
+    is-promise "^2.1.0"
+    path-to-regexp "^3.0.0"
+
 "@fortawesome/fontawesome-free@^5.13.1":
   version "5.13.1"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.13.1.tgz#c53b4066edae16cd1fd669f687baf031b45fb9d6"
@@ -4159,6 +4167,11 @@ graceful-fs@^4.0.0, graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.1
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
   integrity sha1-TK+tdrxi8C+gObL5Tpo906ORpyU=
 
+gsap@^3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.3.4.tgz#759b9ecba1d21ad243f0d09900f29c4773b8cb32"
+  integrity sha512-qqrPsuh1eNN+Qtvux8f+UExXtd5N+TFhqyPlUX5PBwwDdig9CUxi50dYzUpSKkOczOmmiLMBiwoywPok1iOlDw==
+
 gulp-decompress@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/gulp-decompress/-/gulp-decompress-1.2.0.tgz#8eeb65a5e015f8ed8532cafe28454960626f0dc7"
@@ -5038,6 +5051,11 @@ is-primitive@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/is-primitive/-/is-primitive-2.0.0.tgz#207bab91638499c07b2adf240a41a87210034575"
   integrity sha1-IHurkWOEmcB7Kt8kCkGochADRXU=
+
+is-promise@^2.1.0:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/is-promise/-/is-promise-2.2.2.tgz#39ab959ccbf9a774cf079f7b40c7a26f763135f1"
+  integrity sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ==
 
 is-redirect@^1.0.0:
   version "1.0.0"
@@ -6887,6 +6905,11 @@ path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+
+path-to-regexp@^3.0.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-3.2.0.tgz#fa7877ecbc495c601907562222453c43cc204a5f"
+  integrity sha512-jczvQbCUS7XmS7o+y1aEO9OBVFeZBQ1MDSEqmO7xSoPgOPoowY/SxLpZ6Vh97/8qHZOteiCKb7gkG9gA2ZUxJA==
 
 path-type@^1.0.0:
   version "1.1.0"

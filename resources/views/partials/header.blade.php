@@ -10,7 +10,7 @@
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       @if (has_nav_menu('primary_navigation'))
-        {!! wp_nav_menu($primarymenu) !!}
+        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'navbar-nav', 'echo' => false]) !!}
       @endif
     </div>
   </nav>

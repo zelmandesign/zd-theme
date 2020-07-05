@@ -1,37 +1,15 @@
+import '../custom-components/Navbar'
+// import barba from '@barba/core';
+// import gsap from 'gsap';
+// import about from './about'
+
 export default {
+  containerInit() {
+    // common code for all containers
+    /* ... */
+  },
   init() {
-    // JavaScript to be fired on all pages
-
-    // Hamburger toggle pure JS
-    let hamburgerEl = document.querySelector('.hamburger--collapse');
-
-    hamburgerEl.addEventListener('click', () => {
-      hamburgerEl.classList.toggle('is-active');
-    });
-
-    // Hide Nav
-    'use strict';
-
-    var c, currentScrollTop = 0,
-      navbar = $('.banner');
-
-    $(window).scroll(function () {
-      var a = $(window).scrollTop();
-      var b = navbar.height();
-
-      currentScrollTop = a;
-
-      if ($('.navbar-collapse').hasClass('show')) {
-        event.preventDefault();
-      }
-      else if (c < currentScrollTop && a > b) {
-        navbar.addClass('nav-hidden');
-      } else if (c > currentScrollTop && !(a <= b)) {
-        navbar.removeClass('nav-hidden');
-      }
-
-      c = currentScrollTop;
-    });
+    
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired

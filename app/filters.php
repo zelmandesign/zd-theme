@@ -89,13 +89,3 @@ add_filter('comments_template', function ($comments_template) {
 
     return $comments_template;
 }, 100);
-
-/**
- * Hide ACF field group menu item
- */
-//add_filter('acf/settings/show_admin', '__return_false');
-
-/**
- * include ACF
- */
-include_once( get_stylesheet_directory() . '/../vendor/advanced-custom-fields-pro-master/acf.php' );

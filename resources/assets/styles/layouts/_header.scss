@@ -1,15 +1,16 @@
 .banner {
   transition: all 0.5s;
   background-color: theme-color(black-header);
+  font-size: 16px;
 }
 
 .brand { color: #fff; }
 
-.banner .nav li {
+.banner .menu-item li {
   @extend .nav-item;
 }
 
-.banner .nav a {
+.banner .menu-item a {
   @extend .nav-link;
 
   a { color: var(--red); }

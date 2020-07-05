@@ -32,6 +32,7 @@ add_action('after_setup_theme', function () {
     add_theme_support('soil-nav-walker');
     add_theme_support('soil-nice-search');
     add_theme_support('soil-relative-urls');
+    add_theme_support('soil-js-to-footer');
 
     /**
      * Enable plugins to manage the document title
@@ -130,3 +131,17 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+/**
+ * Barba Ajax Fix 
+*/
+
+add_action('wp_enqueue_scripts', function () {
+    wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
+    $ajax_params = array(
+        'ajax_url' => admin_url('admin-ajax.php'),
+        'ajax_nonce' => wp_create_nonce('my_nonce'),
+    );
+
+    wp_localize_script('sage/main.js', 'ajax_object', $ajax_params);
+}, 100);

@@ -9,12 +9,21 @@ section {
   text-align: center;
   align-items: center;
   justify-content: center;
+  color: var(--light);
 
-  h1 {
-    color: #fff;
+  .my-welcome-text {
+    display: flex;
+    flex-direction: column;
   }
 
-  .text-orange {
+  .text-dark-red {
     color: theme-color(dark-red);
   }
+}
+
+.page-header {
+  min-height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

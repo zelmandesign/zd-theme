@@ -90,3 +90,14 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+
+/**
+ * Barba Ajax Fix 
+*/
+
+function ajax_check_user_logged_in() {
+    echo is_user_logged_in();
+    die();
+}
+add_action('wp_ajax_is_user_logged_in', 'ajax_check_user_logged_in');
+add_action('wp_ajax_nopriv_is_user_logged_in', 'ajax_check_user_logged_in');
