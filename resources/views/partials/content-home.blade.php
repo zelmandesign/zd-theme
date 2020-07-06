@@ -1,3 +1,12 @@
+<div class="transition-container">
+  <div class="curtain-enter">
+    <div class="loader-inner pacman"></div>
+  </div>
+  <div class="curtain-leave">
+    <div class="loader-inner pacman"></div>
+  </div>
+</div>
+
 <section id="main">
   <div class="my-welcome-text">
     <div id="typed-strings">
@@ -12,7 +21,7 @@
 </section>
 
 <section id="about">
-  
+  <div class="loader-inner ball-pulse"></div>
 </section>
 
 <section id="work">

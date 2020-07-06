@@ -1,0 +1,31 @@
+.transition-container {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  .curtain-leave {
+    //background: grey;
+    width: 0;
+    height: 100vh;
+    background: #a2b5ca;
+    position: fixed;
+    opacity: 0;
+    //z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .curtain-enter {
+    width: 100vw;
+    height: 100vh;
+    background: #a2b5ca;
+    position: fixed;
+    opacity: 1;
+    //z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

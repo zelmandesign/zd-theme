@@ -1,11 +1,10 @@
 import Typed from 'typed.js';
+//import gsap from 'gsap';
 
 export default {
   init() {
+    $('.loader-inner').loaders()
     // JavaScript to be fired on the home page
-  },
-  finalize() {
-    // JavaScript to be fired on the home page, after the init JS
     var typed = new Typed('#typed', {
       stringsElement: '#typed-strings',
       loop: false,
@@ -26,5 +25,26 @@ export default {
     });
     typed2
     console.log('typed initialized')
+
+    // function enterCurtain() {
+    //   var tl = gsap.timeline({repeat: 0});
+
+    //   tl.to('.curtain-bg', {
+    //     duration: 1, 
+    //     ease: 'expo.inOut',
+    //     width: '100%', 
+    //     opacity: 1,
+    //   });
+    //   tl.to('.curtain-bg', {
+    //     duration: 0.5, 
+    //     ease: 'expo.inOut',
+    //     right: '-100vw',
+    //   });
+    // }
+    // enterCurtain()
+  },
+  finalize() {
+    // JavaScript to be fired on the home page, after the init JS
+    
   },
 };

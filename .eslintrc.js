@@ -3,8 +3,6 @@ module.exports = {
   'extends': 'eslint:recommended',
   'globals': {
     'wp': true,
-    // 'admin_url': true,
-    // 'ajax_url': true,
     'ajax_object': true,
   },
   'env': {

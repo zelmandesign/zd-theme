@@ -14,11 +14,13 @@
 /** Import theme styles */
 @import "~bootstrap/scss/bootstrap";
 @import "~hamburgers/_sass/hamburgers/hamburgers";
+@import "~loaders.css/src/loaders";
 @import "common/global";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
 @import "components/wp-classes";
+@import "components/loader";
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";
